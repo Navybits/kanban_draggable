@@ -14,10 +14,10 @@ Disable DragDrop/Sorting In Specific Kanban View
 
  Example: 
  
-  <kanban disable_sort_column='true' disable_sort_record='true' disable_drag_drop_record='true'>
+  ```<kanban disable_sort_column='true' disable_sort_record='true' disable_drag_drop_record='true'>
         
    ...
 
    ...
         
-  </kanban>
+  </kanban>```
