@@ -42,6 +42,7 @@ Disable DragDrop/Sorting In Specific Kanban View
     'data': [
         'views/templates.xml',
     ],
+    'images': ['images/odoo-listing-kanban-draggable_screenshot.jpg'],
 
     'installable': True,
     'application': False,
