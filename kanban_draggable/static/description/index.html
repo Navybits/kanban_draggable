@@ -4,6 +4,12 @@
         <div>
             <h3>
                 <p>
+                    In the Kanban view, Odoo does not offer precise control over the drag and drop behavior. Sometimes we don't want to allow drag and drop between columns as this might result in unexpected results.
+For example, if an end user groups products by category, he can change the category of a product by mistake just by dragging/dropping to the wrong one.
+This module adds extra attributes to the kanban view in order to precisely control the allowed actions.
+You can specify if dragging columns is enabled or not. You can disable/enable  dragging cards (records ) between columns and you can completely disable sorting and dragging.
+                </p>
+                <p>
                     To disable drag drop record between columns add:<br />
 
                     &nbsp;&nbsp;&nbsp;&nbsp;disable_drag_drop_record="true" into the &lt;kanban&gt; tag. <br /><br />
